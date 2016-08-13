@@ -13,9 +13,6 @@ function data = importfile(workbookFile, sheetName, range)
 %   dataset = importfile('123_dataset.xlsx','Sheet1','B2:BI3015');
 %
 
-
-
-
 %% Input handling
 
 % If no sheet is specified, read first sheet
