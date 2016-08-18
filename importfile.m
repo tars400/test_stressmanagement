@@ -10,11 +10,9 @@ function data = importfile(workbookFile, sheetName, range)
 %   and from the specified RANGE. Specify RANGE using the syntax
 %   'C1:C2',where C1 and C2 are opposing corners of the region.%
 % Example:
-%   dataset = importfile('123_dataset.xlsx','Sheet1','B2:BI3015');
+%   data = importfile('123_dataset.xlsx','Sheet1','B2:BI3015');
 %
-
 %% Input handling
-
 % If no sheet is specified, read first sheet
 if nargin == 1 || isempty(sheetName)
     sheetName = 1;
