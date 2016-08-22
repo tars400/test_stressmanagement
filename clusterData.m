@@ -12,7 +12,7 @@ dataset = importfile('123_dataset.xlsx','Sheet1','B2:BI3015');
 % Eucledian distance of new data from the centroid of 3 clusters. The
 % minimum distance tells to which cluster the new data belongs to.
 
-rowNumber=1235; %you can provide values if needed
+rowNumber=1235; %to verify
 testData=dataset(rowNumber,:);
 eucledianDist=zeros(1,3);
 for i=1:3
